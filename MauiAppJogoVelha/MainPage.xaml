@@ -4,8 +4,8 @@
              x:Class="MauiAppJogoVelha.MainPage">
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-            <GradientStop Color="Purple" Offset="0.3" />
-            <GradientStop Color="Red" Offset="1.1"/>
+            <GradientStop Color="#2355B1" Offset="0.3" />
+            <GradientStop Color="#8694DF" Offset="1.1"/>
         </LinearGradientBrush>
     </ContentPage.Background>
     <ContentPage.Resources>
@@ -20,15 +20,15 @@
 
         </Style>
     </ContentPage.Resources>
-    <Grid ColumnDefinitions="*, *, *" RowDefinitions="*, *, *"
-          
-   VerticalOptions="FillAndExpand"
+    <Grid ColumnDefinitions="*, *, *" RowDefinitions="*, *, *, *"
+          VerticalOptions="FillAndExpand"
           Padding="10">
         <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
                FontSize="60" HorizontalTextAlignment="Center"
-               Text="JOGO DA VELHA"/>
+               Text="JOGO DA VELHA"
+               TextColor="White"/>
 
-        <Button x:Name="btn10" Grid.Row="1" Grid.Column="0" Text=""  Clicked="button_clicked"/>
+        <Button x:Name="btn10" Grid.Row="1" Grid.Column="0" Text="" Clicked="button_clicked"/>
         <Button x:Name="btn11" Grid.Row="1" Grid.Column="1" Text="" Clicked="button_clicked"/>
         <Button x:Name="btn12" Grid.Row="1" Grid.Column="2" Text="" Clicked="button_clicked"/>
 
