@@ -2,7 +2,7 @@
 {
     public partial class MainPage : ContentPage
     {
-        string vez = "0"; 
+        string vez = "O"; 
 
         public MainPage()
         {
